@@ -1,2 +1,1 @@
-Hello
-.
+The proposed web application is a user-centric platform designed to educate, engage, and empower individuals to actively contribute to three vital United Nations Sustainable Development Goals (SDGs): No Poverty, Quality Education, and Gender Equality. Through an intuitive and appealing frontend, the app aims to create a global community committed to positive social change. Users will discover the interconnections between these goals, with a primary focus on quality education as a catalyst for eradicating poverty and promoting gender equality. Engaging and interactive content will provide users with a deep understanding of the issues, enabling them to take meaningful actions and contribute to creating a better world.
