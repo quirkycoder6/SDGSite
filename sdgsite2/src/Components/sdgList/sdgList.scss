@@ -1,0 +1,20 @@
+@import "../../global.scss";
+
+.sdgList {
+    font-size: 14px;
+    margin-right: 50px;
+    padding: 7px;
+    border-radius: 10px;
+    cursor: pointer;
+
+    @include mobile {
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 18px;
+    }
+
+    &.active {
+        background-color: $mainColor;
+        color: white;
+    }
+}
