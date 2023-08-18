@@ -19,21 +19,21 @@ export default function Home() {
       <div className="left">
         <div className="imgContainer">
           <img
-            src="https://publicadministration.un.org/unpsa/portals/5/Images/SDG_logo_with_UN_Emblem.png"
+            src="assets/images/sdgFull-logo.png"
             alt=""
           />
         </div>
       </div>
       <div className="right">
         <div className="wrapper">
-          <h2>Creating a Sustainable Space,</h2>
-          <h1>For our future generations to come</h1>
+          <h1>Creating a Sustainable Space,</h1>
+          <h2>For our future generations to come</h2>
           <h3>
             We aim for <span ref={textRef}></span>
           </h3>
         </div>
-        <a href="#sdgs">
-          <img src="assets/scrolldown-icon.jpg" alt="" />
+        <a href="#sdgs-gal">
+          <img src="assets/images/scrolldown-icon.jpg" alt="" />
         </a>
       </div>
     </div>

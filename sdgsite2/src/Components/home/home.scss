@@ -1,8 +1,11 @@
 @import "../../global.scss";
 
 .home {
-    background-color: white;
+    background-color: rgb(212, 212, 200);
     display: flex;
+    height: .85vh;
+    margin-right: 5px;
+    overflow: hidden;
 
     @include mobile {
         flex-direction: column;
@@ -21,7 +24,7 @@
         .imgContainer {
             width: 600px;
             height: 600px;
-            background-color: rgb(192, 66, 91);
+            background-color: rgba(192, 66, 91, 0.15);
             opacity: 1;
             border-radius: 50%;
             display: flex;
@@ -33,9 +36,10 @@
         img {
             height: 100%;
             width: 100%;
-            opacity: 90%;
+            opacity: 1;
             border-radius: 50%;
-            display: inherit;
+            display: flex;
+            margin-bottom: 0px;
         }
     }
 
@@ -99,12 +103,12 @@
 
             img {
                 width: 30px;
-                animation: arrowBlink 2s infinite;
+                animation: arrowBlink 1s infinite;
             }
 
             @keyframes arrowBlink {
                 100% {
-                    opacity: 0;
+                    opacity: 0.2;
                 }
             }
         }

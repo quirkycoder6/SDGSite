@@ -6,13 +6,9 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
       <div className="wrapper">
         <div className="left">
           <a href="#home" className="logo">
-            <img src="../../../public/assets/images/sdgHome-logo.svg" alt="home logo" />
+            <img src="assets/images/sdg-logo.png" alt="home logo" />
           </a>
-          <div className="itemContainer">
-            <div className="icon">
-              <span>+91 9645213567</span>
-            </div>
-          </div>
+          
           <div className="itemContainer">
             <div className="link">
               <a href="https://sdgs.un.org/goals">Visit official site</a>

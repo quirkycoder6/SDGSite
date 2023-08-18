@@ -25,7 +25,7 @@ export default function SDGs() {
     {
       id: "gender-equality",
       title: "Gender Equality",
-      summary: ""
+      summary: "Gender equality is not only a fundamental human right, but a necessary foundation for a peaceful, prosperous and sustainable world. There has been progress over the last decades, but the world is not on track to achieve gender equality by 2030.\n\tWomen’s health services, already poorly funded, have faced major disruptions. Violence against women remains endemic. And despite women’s leadership in responding to COVID-19, they still trail men in securing the decision-making positions they deserve.\n\tCommitment and bold action are needed to accelerate progress, including through the promotion of laws, policies, budgets and institutions that advance gender equality. Greater investment in gender statistics is vital, since less than half of the data required to monitor Goal 5 are currently available."
     }
   ];
 
@@ -46,8 +46,8 @@ export default function SDGs() {
 }, [selected])
 
   return (
-    <div className="sdgs" id="sdgs">
-      <h1>SDGs</h1>
+    <div className="sdgs-gal" id="sdgs-gal">
+      <h1>SDGs Image gallery</h1>
       <ul>
         {list.map((item) => (
           <SDGList 
